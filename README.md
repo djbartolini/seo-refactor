@@ -2,7 +2,7 @@
 
 SEO-refactor is a project of refactoring of an existing website, the Horiseon Search Engine Optimization website.
 
-[Link to the Horiseon website]()
+[Link to the Horiseon website](https://djbartolini.github.io/seo-refactor/)
 
 ## Table of Contents
 - [Description](#description)
