@@ -64,7 +64,7 @@ p {
     background-position: center;
 }
 
-/* Added max-height declaration to these 2 selectors so that it's no longer repeated as a separate selector for the images */
+/* Added max-height declaration to these 2 selectors so that it's no longer repeated as a separate class selector for the images */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -79,8 +79,8 @@ p {
 
 /* ----------------------------------- */
 
-/* Moved this selector higher in the code to keep .main and .aside separate*/
-/* Changed the name of this selector so it can be used multiple times via the class attribute; D.R.Y. */
+/* Moved this class selector higher in the code to keep code for main and aside separate */
+/* Also changed the name of this class selector so it can be called on multiple times */
 .main {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,7 +90,7 @@ p {
     color: #ffffff;
 }
 
-/* Also changed this selector to match the previous change */
+/* Changed this class selector's name to match the previous change */
 .main h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -113,14 +113,13 @@ p {
     background-color: #2589bd;
 }
 
-/* Changed the name of this selector so it can be used multiple times via the class attribute; D.R.Y. */
+/* Changed the name of this class selector so it can be called on multiple times via */
 .benefit-aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Changed the names of the next 2 selectors to match the previous change */
-/* Changed headings in aside to h4 to aid visual flow */
 .benefit-aside h4 {
     margin-bottom: 10px;
     text-align: center;
